@@ -1,4 +1,11 @@
-[![build status](https://secure.travis-ci.org/mozilla/node-client-sessions.png)](http://travis-ci.org/mozilla/node-client-sessions)
+# node-client-sessions
+
+forked from https://github.com/mozilla/node-client-sessions
+
+Added `cookie.extend` method, updated packages and rewrote to es6.
+This allows to upgrade cookie durations on user request.
+
+---
 
 client-sessions is connect middleware that implements sessions in encrypted tamper-free cookies.  For a complete introduction to encrypted client side sessions, refer to [Francois Marier's blog post on the subject][];
 
